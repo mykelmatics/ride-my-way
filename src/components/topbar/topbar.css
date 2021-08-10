@@ -1,0 +1,171 @@
+.topbarContainer{
+    height: 10vh;
+    /* width: 100%; */
+    background-color: #F9D309;
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    /* overflow-x: hidden; */
+    z-index: 999;
+
+}
+.topbarLeft {
+    /* flex: 3; */
+    width: 40%;
+    /* margin-left: 50px; */
+}
+.logo{
+    font-size: 35px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    height: 60px;
+}
+.logoIcon {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.topbarRight {
+    width: 55%;
+    position: relative;
+    margin-left: 5%;
+}
+.topbarLinks {
+    display: flex;
+    align-items: center;
+}
+.topbarTextlink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbarTextlink > a {
+    text-decoration: none;
+}
+.topbarLink {
+    padding: 0 15px;
+    font-size: 1.25rem;
+    color:black; 
+    cursor:pointer; 
+}
+
+.topbarButton {
+    display: flex;
+    align-items: center;
+}
+.loginBtn {
+    padding: 5px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color:#BDBD00;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginBtn:focus {
+    outline: none;
+}
+.topbarRegisterbtn{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.topbarNavicon{
+    display: none;
+}
+.topbarNavicon > i {
+    font-size: 26px;
+    color: black;
+
+}
+.dropbtn{
+    position: relative;
+    font-size: 18px;
+    border:none;
+    padding: 0 10px;
+    background: transparent;
+    cursor: pointer;
+
+}
+.dropdown-content {
+
+    display: none;
+ position: absolute;
+  top: 25px;   
+  margin-right: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* min-width: 160px; */
+    list-style-type: none;
+    padding: 1.2% ;
+    background-color: #f3dc5c ;
+    border-radius: 5px;
+    font-size: 1.2rem ;
+
+}
+.registerPassenger {
+    margin-bottom: 1.5%;
+    cursor: pointer;
+}
+.registerDriver {
+    cursor: pointer;
+}
+
+.dropbtn:hover + .dropdown-content, .dropdown-content:hover{
+  display:block;
+  
+}
+
+@media only screen and (max-width: 978px) {
+    .topbarContainer{
+        height: 15vh;
+        /* width: fit-content; */
+        background-color: #F9D309;
+        display:flex;
+        /* align-items: center; */
+        position: sticky;
+        top: 0;
+        /* overflow-x: hidden; */
+        z-index: 999;
+    
+    }
+    .topbarLeft {
+        /* flex: 3; */
+        display: flex;
+        width: 40%;
+        /* margin-left: 50px; */
+    }
+    /* .topbarRight {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        position: relative;
+        margin-left: 5%;
+    } */
+    .topbarLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topbarTextlink{
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        /* top:90%; */
+        left:60%;
+        top:100%
+    }
+    .topbarRegisterbtn{
+        position: absolute;
+        top:3%;
+        left:60%;
+    }
+    .topbarButton{
+        position: absolute;
+        top:10%;
+        left:20%;
+    }
+  }

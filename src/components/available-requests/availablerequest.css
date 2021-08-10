@@ -1,0 +1,130 @@
+.availableRequestTitle{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.availableRequestFlex{
+    display: flex;
+    flex-wrap: wrap;
+   /* margin-right: 50px; */
+}
+.availableReqWrapper{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    /* border: 1px solid red; */
+    margin-top: 8px;
+
+    
+}
+.availableReqInfo{
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    /* margin-left: 10%; */
+    padding: 25px;
+    border-radius: 5px;
+    margin-right: 0%;
+    /* border: 1px solid blue; */
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+    /* height: 200px */
+}
+.availableReqDriverDetails{
+    position: relative;
+}
+.availableReqDriverDetails> .availableReqDriverName{
+    /* align-items: center; */
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: absolute;
+    top:15px;
+    left:60px;
+}
+
+.availableReqDriverImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  
+}
+.availableAddress{
+    font-weight: 500;
+    font-size: 1.1rem; 
+    margin-right: 4px;   
+}
+.availableRideRight{
+    margin-left: 90px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #ffc20a;
+}
+.availableRideButton{
+    /* margin-bottom: 0px; */
+    margin-top: 90px;
+    padding: 8px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #ffc100;
+    font-weight: 700;
+}
+@media only screen and (max-width: 855px) {
+    .availableReqWrapper {
+        display: flex;
+        width: 95%;
+        margin-left: 2%;
+        margin-right: 2.5%;
+
+    }
+    .availableReqInfo{
+        display: flex;
+        /* align-items: center; */
+        width: 100%;
+        /* margin-left: 10%; */
+        padding: 5px;
+        border-radius: 5px;
+        justify-content: space-between;
+
+        margin-right: 0%;
+        /* border: 1px solid blue; */
+        /* border: none; */
+        box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+        /* height: 200px */
+    }
+    .availableReqDriverDetails > .availableReqDriverName{
+        /* align-items: center; */
+        font-size: 1.2rem;
+        font-weight: 500;
+        position: absolute;
+        top:15px;
+        left:60px;
+    }
+    
+    .availableRideRight{
+        margin-left: 20px;
+        margin-top: 17px;
+        font-weight: 500;
+        color: #ffc20a;
+    }
+    .availableAddress{
+        font-weight: 500;
+        font-size: 1.1rem; 
+        margin-right: 4px;   
+    }
+    .availableRideButton{
+        /* margin-bottom: 0px; */
+        margin-top: 130px;
+        padding: 8px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        background-color: #ffc100;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,40 @@
+.offer-ride-title{
+    font-size: 1.2 rem;
+    font-weight: lighter;
+    text-align: center;
+}
+.offer-ride-form{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.offer-ride-location{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.offer-ride-location > input {
+    width: 100%;
+    height:40px;
+    /* border:none; */
+    border-radius:5px;
+    outline: none;
+}
+.offer-ride-location > label {
+    font-size: 1.2rem;
+}
+
+.offer-ride-button > input{
+    padding: 10px;
+    border:none;
+    border-radius: 4px;
+    outline: none;
+    background-color:#ffc100;
+    font-size: 1.1rem;
+    
+}
+@media only screen and (max-width: 978px) {
+    .offer-ride-form{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }

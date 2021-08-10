@@ -1,0 +1,39 @@
+table {
+    border-spacing: 0;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 90%;
+    /* margin-top: 10px; */
+
+  }
+  thead {
+    padding: '10px',
+  }
+  
+  
+  
+    th, td {
+      padding: 0.5rem;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+  
+    }
+   td {
+     text-align: center;
+   }
+    th {
+      background: #E2AE01;
+      border-bottom: 1px solid black;
+      color: black;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    tr {
+      /* border: solid 5px green; */
+      background: white;
+      color: black;
+      font-weight: lighter;
+      font-size: 1.2rem;
+      padding: 10px
+    }
+  

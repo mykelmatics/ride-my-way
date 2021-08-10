@@ -1,0 +1,43 @@
+.aboutUsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: center; */
+    background-color: rgb(44, 39, 39);
+    width: 100%;
+}
+.aboutUsText{
+    width: 50%;
+}
+.aboutUsheader {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 500;
+    margin: 5% 5%;
+    padding-left: 8%;
+}
+.aboutUsContent{
+    margin: 2% 5%;
+    color:rgb(151, 144, 144);
+    word-break: break-all;
+    padding-left: 8%;
+
+}
+.contactUsText{
+    width: 50%;
+}
+.contactUsheader {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 500;
+    margin: 5% 5%;
+    padding-left: 8%;
+}
+
+.contactUsContent{
+    margin: 2% 5%;
+    color:rgb(151, 144, 144);
+    word-break: break-all;
+    padding-left: 8%;
+
+}
