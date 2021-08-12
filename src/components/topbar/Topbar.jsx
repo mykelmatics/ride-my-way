@@ -28,8 +28,10 @@ export default function Topbar() {
                         <a href='#service'>
                         <span className="topbarLink">Services</span>
                         </a>
-                        
+                        <a href='#about'>
                         <span className="topbarLink">Contact Us</span>
+                        </a>
+                        
 
                     </div>
                     <div className="topbarButton">

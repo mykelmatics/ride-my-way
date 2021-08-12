@@ -12,8 +12,8 @@ function Home() {
           <div className="homeContainer" id="home">
               <Topbar/>
               <Tagline/>
-              <Service id="service"/>
-              <About id="about" />
+               <Service id="service"/>
+              <About id="about" /> 
           </div>      
             
 

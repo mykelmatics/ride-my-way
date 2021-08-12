@@ -4,7 +4,7 @@ const Riderequests = () => {
     return (
      <>
            <div className="rideRequestTitle">Available Ride Requests</div>
-      <div style={{display:"flex", flexWrap:"wrap"}}>
+      <div className="rideRequestContainers">
       {/* <div style={{marginLeft:"30px"}} > */}
             <div className="rideRequestsContainer">
                 <div className="rideRequestWrapper">

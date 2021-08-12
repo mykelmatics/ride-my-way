@@ -18,8 +18,8 @@ const Availablerequest = () => {
                         <span className="availablePickoffLocation"><span className="availableAddress">To:</span>  637 Kyle Street, Fullerton, NE 68638</span>
                     </div>
                     <div>
-                        <span className="timePosted">23rd Feb 12:10pm</span><br />
-                        <span className="availableDriverNumber">08029385034</span>
+                        <span className="timePosted"><i style={{color:'red',marginRight:'10px'}}class="fa fa-calendar" aria-hidden="true"></i>23rd Feb 12:10pm</span><br />
+                        <span className="availableDriverNumber"><i style={{color:'green', marginRight:'10px'}} className="fa fa-phone" aria-hidden="true"></i>08029385034</span>
                     </div>
                  </div>
                  <div className="availableRideRight">
@@ -42,12 +42,12 @@ const Availablerequest = () => {
                         <span className="availablePickoffLocation"><span className="availableAddress">To:</span>  637 Kyle Street, Fullerton, NE 68638</span>
                     </div>
                     <div>
-                        <span className="timePosted">23rd Feb 12:10pm</span><br />
-                        <span className="availableDriverNumber">08029385034</span>
+                        <span className="timePosted"><i style={{color:'red',marginRight:'10px'}}class="fa fa-calendar" aria-hidden="true"></i>23rd Feb 12:10pm</span><br />
+                        <span className="availableDriverNumber"><i style={{color:'green', marginRight:'10px'}} className="fa fa-phone" aria-hidden="true"></i>08029385034</span>
                     </div>
                  </div>
                  <div className="availableRideRight">
-                     <span className="availableRidePrice">#500</span><br />
+                     <span className="availableRidePrice">#2,000</span><br />
                     <input className="availableRideButton"type="submit" value="join Ride" />
 
                  </div>
@@ -67,12 +67,12 @@ const Availablerequest = () => {
                         <span className="availablePickoffLocation"><span className="availableAddress">To:</span>  637 Kyle Street, Fullerton, NE 68638</span>
                     </div>
                     <div>
-                        <span className="timePosted">23rd Feb 12:10pm</span><br />
-                        <span className="availableDriverNumber">08029385034</span>
+                        <span className="timePosted"><i style={{color:'red',marginRight:'10px'}}class="fa fa-calendar" aria-hidden="true"></i>23rd Feb 12:10pm</span><br />
+                        <span className="availableDriverNumber"><i style={{color:'green', marginRight:'10px'}} className="fa fa-phone" aria-hidden="true"></i>08029385034</span>
                     </div>
                  </div>
                  <div className="availableRideRight">
-                     <span className="availableRidePrice">#500</span><br />
+                     <span className="availableRidePrice">#1,500</span><br />
                     <input className="availableRideButton"type="submit" value="join Ride" />
 
                  </div>

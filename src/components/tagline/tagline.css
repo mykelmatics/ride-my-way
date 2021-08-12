@@ -2,7 +2,8 @@
      width: 100%;
      height: 90vh; 
      overflow: hidden ;
-     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(25, 25, 25, 0.78)), url("../tagline/car.jpg");
+     /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(25, 25, 25, 0.78)), url("../tagline/car.jpg"); */
+     background-image:url("../tagline/car.jpg") ;
      background-repeat:  no-repeat ;
      background-size: cover;
      background-position: center;
@@ -10,12 +11,91 @@
      z-index: 1;
 
 }
+/* #hero {
+   background-image:url(./img/hero-bg.png) ;
+   background-size: cover;
+   background-position: top center;
+   position: relative; 
+   z-index: 1;
+} */
 
 .imgSlogan {
-   margin-top: 15%;
-   margin-left: 10%;
-   font-size: 60px;
+   margin-top: 10%;
+   margin-left: 8%;
+   font-size: 3.5rem;
    color: white;
    text-shadow: 2px 1px 1px #000;
+
+}
+/* a {
+   text-decoration: none;
+} */
+.apptagLine::after {
+   content: '';
+   position:absolute;
+   left: 0;
+   top: 0;
+   height: 90vh;
+   width: 100%;
+   background-color: black;
+   opacity: 0.7;
+   z-index: -1;
+   
+}
+.callToActionButton{
+   margin-left: 8%;
+   
+}
+.apptagLine .cta {
+   display: inline-block;
+   padding: 10px 30px;
+   color: white;
+   background-color: transparent;
+   border: 2px solid #ffc100;
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   letter-spacing: 0.1rem;
+   margin-top: 30px;
+   margin-left: 8px;
+   transition: 0.3s ease;
+   transition-property: background-color,color ;
+   
+}
+.apptagLine  .cta:hover {
+   color: black;
+   background-color: #ffc100;
+   cursor: pointer;
+
+}
+@media only screen and (max-width: 978px) {
+   .apptagLine {
+      height: 90vh;
+ 
+ }
+ .imgSlogan {
+   margin-top: 20%;
+   margin-left: 20px;
+   font-size: 2rem;
+   color: white;
+}
+.apptagLine .cta {
+   color: black;
+   background-color: #ffc100;
+   border: none;
+   border: 1px solid #ffc100;
+   border-radius: 5px;
+   font-size: 1rem;
+   font-weight: 600;
+   letter-spacing: 0rem;
+   margin-top: 15px;
+   margin-left: 8px;
+  
+}
+.callToActionButton{
+   display: flex;
+   flex-direction: column;
+   margin-left: 5%;
+   margin-top: 10px;  
+}
 
 }
