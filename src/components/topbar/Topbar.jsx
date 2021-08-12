@@ -42,10 +42,10 @@ export default function Topbar() {
                     <div className="topbarRegisterbtn">
                        <button className="dropbtn">SIGN UP <span className="topbarCaretIcon"><i class="fa fa-caret-down"></i></span> </button>
                         <ul className="dropdown-content" >
-                            <Link style={topbarStyle} to='/rider-signup'>
+                            <Link style={topbarStyle} to='/rider-dashboard'>
                                 <li className="registerPassenger ">Sign up to ride</li>
                             </Link>
-                            <Link style={topbarStyle} to='/driver-signup'>
+                            <Link style={topbarStyle} to='/driver-dashboard'>
                                  <li className="registerDriver">Apply as a Driver</li>
                             </Link>
                         </ul>
