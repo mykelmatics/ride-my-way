@@ -59,42 +59,42 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
     <Slide left>
       <div className="sidebar__link active_menu_link">
         <i className="fa fa-home"></i>
-        <a onClick={homeroute}>Dashboard</a>
+        <span  onClick={homeroute}>Dashboard</span>
       </div>
     </Slide>
 
     <Slide left>
       <div className="sidebar__link">
         <i className="fa fa-wrench"></i>
-        <a onClick={editroute}>Edit Profile</a>
+        <span  onClick={editroute}>Edit Profile</span>
       </div>
     </Slide>
 
     <Slide left>
       <div className="sidebar__link">
         <i className="fa fa-handshake-o"></i>
-        <a onClick={offerrideroute}>Offer a Ride</a>
+        <span  onClick={offerrideroute}>Offer a Ride</span>
       </div>
     </Slide>
 
     <Slide left>
       <div className="sidebar__link">
         <i className="fa fa-question"></i>
-        <a onClick={riderequestroute}>Ride Requests</a>
+        <span onClick={riderequestroute}>Ride Requests</span>
       </div>
     </Slide>
 
     <Slide left>
       <div className="sidebar__link">
         <i className="fa fa-calendar-check-o"></i>
-        <a onClick={ridehistoryroute}>My Trips</a>
+        <span  onClick={ridehistoryroute}>My Trips</span>
       </div>
     </Slide>
      
     <Slide left>
       <div className="sidebar__logout">
         <i className="fa fa-sign-out"></i>
-        <a onClick={logoutroute}>Log out</a>
+        <span onClick={logoutroute}>Log out</span>
       </div>
     </Slide>
     </div>

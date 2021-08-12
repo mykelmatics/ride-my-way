@@ -44,7 +44,7 @@
   border-bottom: 1px solid #a5aaad;
 
 }
-.sidebar__link > a {
+.sidebar__link > span {
   text-decoration: none;
   color: rgb(240, 229, 229);
   font-weight: 700;
@@ -75,7 +75,7 @@
   cursor: pointer;
 }
 
-.sidebar__logout > a {
+.sidebar__logout > span {
   text-decoration: none;
   color: #ffc100;
   font-weight: 700;

@@ -44,16 +44,16 @@ const Ridersidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="Ridersidebar__menu">
         <div className="Ridersidebar__link ">
           <i className="fa fa-home"></i>
-          <a onClick={riderHomeroute}>Home</a>
+          <span onClick={riderHomeroute}>Home</span>
         </div>
   
         <div className="Ridersidebar__link">
           <i className="fa fa-user-secret" aria-hidden="true"></i>
-          <a onClick={riderEditroute}>Edit Profile</a>
+          <span onClick={riderEditroute}>Edit Profile</span>
         </div>
         <div className="Ridersidebar__link">
           <i className="fa fa-building-o"></i>
-          <a onClick={availableRideroute}>Available Rides</a>
+          <span onClick={availableRideroute}>Available Rides</span>
         </div>
 
         {/* <div className="Ridersidebar__link">
@@ -63,7 +63,7 @@ const Ridersidebar = ({ sidebarOpen, closeSidebar }) => {
 
         <div className="Ridersidebar__logout">
           <i className="fa fa-power-off"></i>
-          <a onClick={signOutRideroute}>Log out</a>
+          <span onClick={signOutRideroute}>Log out</span>
         </div>
       </div>
     </div>

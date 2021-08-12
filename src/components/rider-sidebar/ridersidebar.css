@@ -47,7 +47,7 @@
   }
   
   
-  .Ridersidebar__link > a {
+  .Ridersidebar__link > span {
     text-decoration: none;
     color: rgb(240, 229, 229);
     font-weight: 700;
@@ -58,7 +58,7 @@
     color: black ;
   
   }
-  .Ridersidebar__link > a:hover {
+  .Ridersidebar__link > span:hover {
     color: black;
     cursor:pointer;
   
@@ -75,7 +75,7 @@
     cursor: pointer;
   }
   
-  .Ridersidebar__logout > a {
+  .Ridersidebar__logout > span {
     text-decoration: none;
     color: #ffc100;
     font-weight: 700;
